@@ -1,0 +1,101 @@
+python-xdg
+-------------------------------------------
+PyXDG is a python library to access freedesktop.org standards. 
+Currently supported are:
+
+* Base Directory Specification Version 0.6
+* Menu Specification Version 1.0-draft1
+* Desktop Entry Specification Version 0.9.4
+* Icon Theme Specification Version 0.8
+* Recent File Spec 0.2
+* Shared-MIME-Database Specification 0.13
+
+Runtime requirements:
+  python-2.5.1-1
+
+Canonical homepage:
+  http://freedesktop.org/Software/pyxdg
+
+Canonical download:
+  http://freedesktop.org/Software/pyxdg/releases/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-xdg-0.15-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-xdg-0.15-1.cygport all
+
+This will create:
+  /usr/src/python-xdg-0.15-1-src.tar.bz2
+  /usr/src/python-xdg-0.15-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/xdg/BaseDirectory.py
+  /usr/lib/python2.5/site-packages/xdg/BaseDirectory.pyc
+  /usr/lib/python2.5/site-packages/xdg/BaseDirectory.pyo
+  /usr/lib/python2.5/site-packages/xdg/Config.py
+  /usr/lib/python2.5/site-packages/xdg/Config.pyc
+  /usr/lib/python2.5/site-packages/xdg/Config.pyo
+  /usr/lib/python2.5/site-packages/xdg/DesktopEntry.py
+  /usr/lib/python2.5/site-packages/xdg/DesktopEntry.pyc
+  /usr/lib/python2.5/site-packages/xdg/DesktopEntry.pyo
+  /usr/lib/python2.5/site-packages/xdg/Exceptions.py
+  /usr/lib/python2.5/site-packages/xdg/Exceptions.pyc
+  /usr/lib/python2.5/site-packages/xdg/Exceptions.pyo
+  /usr/lib/python2.5/site-packages/xdg/IconTheme.py
+  /usr/lib/python2.5/site-packages/xdg/IconTheme.pyc
+  /usr/lib/python2.5/site-packages/xdg/IconTheme.pyo
+  /usr/lib/python2.5/site-packages/xdg/IniFile.py
+  /usr/lib/python2.5/site-packages/xdg/IniFile.pyc
+  /usr/lib/python2.5/site-packages/xdg/IniFile.pyo
+  /usr/lib/python2.5/site-packages/xdg/Locale.py
+  /usr/lib/python2.5/site-packages/xdg/Locale.pyc
+  /usr/lib/python2.5/site-packages/xdg/Locale.pyo
+  /usr/lib/python2.5/site-packages/xdg/Menu.py
+  /usr/lib/python2.5/site-packages/xdg/Menu.pyc
+  /usr/lib/python2.5/site-packages/xdg/Menu.pyo
+  /usr/lib/python2.5/site-packages/xdg/MenuEditor.py
+  /usr/lib/python2.5/site-packages/xdg/MenuEditor.pyc
+  /usr/lib/python2.5/site-packages/xdg/MenuEditor.pyo
+  /usr/lib/python2.5/site-packages/xdg/Mime.py
+  /usr/lib/python2.5/site-packages/xdg/Mime.pyc
+  /usr/lib/python2.5/site-packages/xdg/Mime.pyo
+  /usr/lib/python2.5/site-packages/xdg/RecentFiles.py
+  /usr/lib/python2.5/site-packages/xdg/RecentFiles.pyc
+  /usr/lib/python2.5/site-packages/xdg/RecentFiles.pyo
+  /usr/lib/python2.5/site-packages/xdg/__init__.py
+  /usr/lib/python2.5/site-packages/xdg/__init__.pyc
+  /usr/lib/python2.5/site-packages/xdg/__init__.pyo
+  /usr/share/doc/Cygwin/python-xdg-0.15.README
+  /usr/share/doc/python-xdg-0.15/AUTHORS
+  /usr/share/doc/python-xdg-0.15/ChangeLog
+  /usr/share/doc/python-xdg-0.15/COPYING
+  /usr/share/doc/python-xdg-0.15/PKG-INFO
+  /usr/share/doc/python-xdg-0.15/README
+  /usr/share/doc/python-xdg-0.15/TODO
+
+------------------
+
+Port Notes:
+
+----- version 0.15-2 -----
+Rebuilt for python-2.5.
+
+----- version 0.15-1 -----
+Sync with upstream version.
+
+----- version 0.8-2 -----
+Rebuilt for python-2.4.
+
+----- version 0.8-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
