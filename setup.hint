@@ -1,5 +1,5 @@
 category: Python X11
-requires: cygwin python
+requires: python
 sdesc: "Python implementation of freedesktop.org standards"
 ldesc: "PyXDG is a python library to access freedesktop.org standards.
 Currently supported are:
