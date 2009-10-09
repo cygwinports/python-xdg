@@ -1,3 +1,4 @@
+ORIG_PN="pyxdg"
 inherit distutils
 
 DESCRIPTION="Python implementation of freedesktop.org standards"
