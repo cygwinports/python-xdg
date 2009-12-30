@@ -22,19 +22,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-xdg-0.17-1-src.tar.bz2
+  unpack python-xdg-0.18-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-xdg-0.17-1.cygport all
+  cygport ./python-xdg-0.18-1.cygport all
 
 This will create:
-  /usr/src/python-xdg-0.17-1-src.tar.bz2
-  /usr/src/python-xdg-0.17-1.tar.bz2
+  /usr/src/python-xdg-0.18-1-src.tar.bz2
+  /usr/src/python-xdg-0.18-1.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.18-1 -----
+Version bump.
 
 ----- version 0.17-1 -----
 Initial release for Cygwin 1.7.
