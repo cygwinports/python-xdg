@@ -11,7 +11,7 @@ Currently supported are:
 * Shared-MIME-Database Specification
 
 Runtime requirements:
-  python-2.5.4-10
+  python-2.6.4-1
 
 Canonical homepage:
   http://freedesktop.org/Software/pyxdg
@@ -22,19 +22,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-xdg-0.18-1-src.tar.bz2
+  unpack python-xdg-0.19-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-xdg-0.18-1.cygport all
+  cygport ./python-xdg-0.19-1.cygport all
 
 This will create:
-  /usr/src/python-xdg-0.18-1-src.tar.bz2
-  /usr/src/python-xdg-0.18-1.tar.bz2
+  /usr/src/python-xdg-0.19-1-src.tar.bz2
+  /usr/src/python-xdg-0.19-1.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.19-1 -----
+Version bump, built for Python 2.6.
 
 ----- version 0.18-1 -----
 Version bump.
