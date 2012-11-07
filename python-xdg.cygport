@@ -1,6 +1,9 @@
 ORIG_PN="pyxdg"
 inherit distutils
 
+NAME="python-xdg"
+VERSION=0.24
+RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python implementation of freedesktop.org standards"
 DESCRIPTION="PyXDG is a python library to access freedesktop.org standards.
