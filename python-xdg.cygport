@@ -3,7 +3,7 @@ inherit distutils
 
 NAME="python-xdg"
 VERSION=0.25
-RELEASE=1
+RELEASE=2
 CATEGORY="Python"
 SUMMARY="Python implementation of freedesktop.org standards"
 DESCRIPTION="PyXDG is a python library to access freedesktop.org standards.
