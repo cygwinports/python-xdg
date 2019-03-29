@@ -2,8 +2,8 @@ ORIG_PN="pyxdg"
 inherit python-wheel
 
 NAME="python-xdg"
-VERSION=0.25
-RELEASE=6
+VERSION=0.26
+RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python implementation of freedesktop.org standards"
 DESCRIPTION="PyXDG is a python library to access freedesktop.org standards.
@@ -12,8 +12,8 @@ Recent File, and Shared-MIME-Database Specifications."
 HOMEPAGE="http://freedesktop.org/wiki/Software/pyxdg"
 
 PATCH_URI="
-	http://pkgs.fedoraproject.org/cgit/pyxdg.git/plain/pyxdg-0.25-find-first-mimetype-match.patch
-	http://pkgs.fedoraproject.org/cgit/pyxdg.git/plain/pyxdg-0.25-CVE-2014-1624.patch
+	https://src.fedoraproject.org/cgit/rpms/pyxdg.git/plain/pyxdg-0.26-fix-OnlyShowIn.patch
+	https://src.fedoraproject.org/cgit/rpms/pyxdg.git/plain/pyxdg-0.26-getType-fix.patch
 "
 
 ARCH=noarch
